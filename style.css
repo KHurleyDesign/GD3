@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;
+}
+
+<style type="text/css" media="all">@import url("style.css");</style>
+
+html {
+    width: 100%;
+    min-height: 100%;
+}
+body {
+    margin: 0px auto;
+    width: 1200px;
+}
+
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.one.column,
+.two.columns,
+.three.columns,
+.four.columns,
+.five.columns,
+.six.columns,
+.seven.columns,
+.eight.columns,
+.nine.columns,
+.ten.columns,
+.eleven.columns,
+.twelve.columns  {display: inline; float: left; margin-left: 10px; margin-right: 10px;}
+
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.one.column.first,
+.two.columns.first,
+.three.columns.first,
+.four.columns.first,
+.five.columns.first,
+.six.columns.first,
+.seven.columns.first,
+.eight.columns.first,
+.nine.columns.first,
+.ten.columns.first,
+.eleven.columns.first,
+.twelve.columns.first  {margin-left: 0px;}
+
+.one.column.last,
+.two.columns.last,
+.three.columns.last,
+.four.columns.last,
+.five.columns.last,
+.six.columns.last,
+.seven.columns.last,
+.eight.columns.last,
+.nine.columns.last,
+.ten.columns.last,
+.eleven.columns.last,
+.twelve.columns.last  {margin-right: 0px;}
+
+
+/* `Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.one.column {width: 80px;}
+.two.columns {width: 180px;}
+.three.columns {width: 280px;}
+.four.columns {width: 380px;}
+.five.columns {width: 480px;}
+.six.columns {width: 580px;}
+.seven.columns {width: 680px;}
+.eight.columns {width: 780px;}
+.nine.columns {width: 880px;}
+.ten.columns {width: 980px;}
+.eleven.columns {width: 1080px;}
+.twelve.columns {width: 1180px;}
+
+/* `Indents >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.indent-one {padding-left: 100px;}
+.indent-two {padding-left: 200px;}
+.indent-three {padding-left: 300px;}
+.indent-four {padding-left: 400px;}
+.indent-five {padding-left: 500px;}
+.indent-six {padding-left: 600px;}
+.indent-seven {padding-left: 700px;}
+.indent-eight {padding-left: 800px;}
+.indent-nine {padding-left: 900px;}
+.indent-ten {padding-left: 1000px;}
+.indent-eleven {padding-left: 1100px;}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+    height: 0;}
+
+body{
+  background-color:#92a5de;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 30px;
+}
+
+svg {
+	padding-top: 200px;
+	padding-bottom:20px;
+	overflow: visible;
+}
+
+img{
+		display: block;
+		height: 40px;
+		width: auto;
+    margin: center;
+		cursor: pointer;
+
+}
+
+a:link{
+	font-size:12px;
+	color:white;
+	word-spacing:2px;
+	margin-bottom:40px;
+	text-decoration: none;
+}
+
+a:visited{
+	font-size:12px;
+	color:white;
+	word-spacing:2px;
+	margin-bottom:40px;
+	text-decoration: none;
+}
+
+a:hover{
+	color:black;
+}
+
+
+.button {
+	width: auto;
+	background-color: black;
+	color: white;
+	padding: 14px 20px;
+	margin-top: 8px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.space {
+	padding-bottom: 50px;
+}
+
+.finish {
+	width: auto;
+	background-color: black;
+	color: white;
+	padding: 14px 20px;
+	margin-top: 8px;
+	margin-left: 800px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.pointer{
+	cursor: pointer;
+}
